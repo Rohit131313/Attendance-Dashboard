@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Panel</h2>
+        
+        <label>Longitude:</label>
+        <input type="text" id="longitude" placeholder="Enter Longitude">
+        
+        <label>Latitude:</label>
+        <input type="text" id="latitude" placeholder="Enter Latitude">
+
+        <label>Radius Range:</label>
+        <input type="text" id="radius" placeholder="Enter Radius Range">
+
+        <label>Start Date for Attendance:</label>
+        <input type="date" id="startDate">
+
+        <button id="saveDataBtn">Save to Firebase</button>
+        <button id="goToIndex">Go to Home</button>
+
+        <div id="adminAlertBox" class="alert hidden"></div>
+    </div>
+
+    <script type="module" src="admin-dashboard.js"></script>
+</body>
+</html>

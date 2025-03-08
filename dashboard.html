@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Dashboard</h2>
+
+        <!-- Student Profile Image -->
+        <div class="image-container">
+            <img id="profileImage" src="" alt="Student Image">
+        </div>
+
+        <div class="details">
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Scholar Number:</strong> <span id="scholarNumber"></span></p>
+            <p><strong>Batch:</strong> <span id="batch"></span></p>
+            <p><strong>Major:</strong> <span id="major"></span></p>
+            <p><strong>Current Semester Total Attendance:</strong> <span id="totalAttendance"></span></p>
+            <p><strong>Attendance Percentage:</strong> <span id="attendancepercentage"></span></p>
+        </div>
+
+        <button id="logoutBtn">
+            <span>Logout</span>
+            <div class="spinner"></div>
+        </button>
+
+        <div id="alertBox" class="alert hidden"></div>
+    </div>
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html>

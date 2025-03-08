@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <input type="file" id="profileImage" accept="image/*" required>
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="scholarNumber" placeholder="Scholar Number" required>
+        <input type="text" id="batch" placeholder="Batch" required>
+        <input type="text" id="major" placeholder="Major" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="signupBtn">
+            <div class="spinner" style="display: none;"></div> Signup
+        </button>
+        
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+        
+        <!-- Alert Box -->
+        <div id="alertBox" class="alert hidden"></div>
+    </div>
+
+    <script type="module" src="signup.js"></script>
+</body>
+</html>

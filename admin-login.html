@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="admin-login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Login</h2>
+        <input type="email" id="adminEmail" placeholder="Admin Email" required>
+        <input type="password" id="adminPassword" placeholder="Password" required>
+        <button id="adminLoginBtn">
+            <span>Login</span>
+            <div class="spinner"></div>
+        </button>
+        <p><a href="login.html">Back to User Login</a></p>
+        <div id="adminAlertBox" class="alert hidden"></div>
+    </div>
+
+    <script type="module" src="admin-login.js"></script>
+</body>
+</html>

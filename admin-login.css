@@ -1,0 +1,13 @@
+@import url('login.css');
+
+.container h2 {
+    background: linear-gradient(135deg, #dc3545, #ff6b6b);
+}
+
+#adminLoginBtn {
+    background-color: #dc3545;
+}
+
+#adminLoginBtn:hover {
+    background-color: #c82333;
+}
